@@ -199,7 +199,7 @@ export default function Home() {
 
       <footer className="footer container">
         <a className="brand" href="#"><span className="brand-mark">✦</span> dynamic</a>
-        <p>© {new Date().getFullYear()} Dynamic, Inc. Built for speed.</p>
+        <p>© 2026 Dynamic, Inc. Built for speed.</p>
         <div><a href="#status">Status</a><a href="#privacy">Privacy</a><a href="#terms">Terms</a></div>
       </footer>
     </main>
