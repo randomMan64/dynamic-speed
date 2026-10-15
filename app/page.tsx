@@ -62,8 +62,7 @@ export default function Home() {
           <a href="#docs">Docs <span>↗</span></a>
         </div>
         <div className="nav-actions">
-          <a className="login-link" href="#login">Log in</a>
-          <a className="button button-dark button-small" href="#start">
+          <a className="button button-dark button-small" href="#contact">
             Get started <span>↗</span>
           </a>
         </div>

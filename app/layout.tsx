@@ -13,9 +13,30 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Dynamic — Make every API feel instant",
+  title: "Dynamic Speed",
   description:
     "Dynamic is the edge-native API platform for teams that care about speed.",
+  openGraph: {
+    title: "Dynamic Speed",
+    description:
+      "Dynamic is the edge-native API platform for teams that care about speed.",
+    type: "website",
+    images: [
+      {
+        url: "/thumbnail.png",
+        width: 1734,
+        height: 907,
+        alt: "Dynamic — Make every API feel instant",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Dynamic Speed",
+    description:
+      "Dynamic is the edge-native API platform for teams that care about speed.",
+    images: ["/thumbnail.png"],
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
